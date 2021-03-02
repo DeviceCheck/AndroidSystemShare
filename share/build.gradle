@@ -6,6 +6,8 @@ plugins {
 apply plugin: 'kotlin-android-extensions'
 
 apply plugin: 'kotlin-kapt'
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.github.PersonalTenda '
 
 android {
   compileSdkVersion 30
